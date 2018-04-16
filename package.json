@@ -1,0 +1,9 @@
+{
+  "name": "tweeter",
+  "version": "0.0.0",
+  "description": "tweeter",
+  "main": "server.js",
+  "author": {
+    "name": "Lloyd"
+  }
+}
