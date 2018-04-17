@@ -1,9 +1,26 @@
 {
   "name": "tweeter",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "tweeter",
   "main": "server.js",
-  "author": {
-    "name": "Lloyd"
+  "author": "Lloyd",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junglistloydee/tweeter.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junglistloydee/tweeter/issues"
+  },
+  "homepage": "https://github.com/junglistloydee/tweeter#readme",
+  "dependencies": {
+    "twitter": "^1.7.1"
   }
 }
