@@ -40,8 +40,8 @@ var call = tweet.get('search/tweets', parms, function (err, data, response) {
                         let friends = response.user.friends;
                         console.log('Friended: ' + userid + ' Count: ' + friends);
                     }
-                });
-                T.post('statuses/retweet/:id', { // retweet the tweet
+                })
+                T.post('statuses/retweet/:id'), { // retweet the tweet
                     id: retweetId
                 }, function (err, response) {
                     if (response) {
@@ -50,12 +50,12 @@ var call = tweet.get('search/tweets', parms, function (err, data, response) {
                     if (err) {
                         console.log('Unable to retweet.');
                     }
-                });
+                };
             }
         }
     } else {
         console.log(err);
     }
-})
+});
 
 module.exports = call;
